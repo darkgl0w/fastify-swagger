@@ -47,7 +47,7 @@
     "fastify-helmet": "^5.0.3",
     "fluent-json-schema": "^3.0.1",
     "fs-extra": "^10.0.0",
-    "joi": "^14.3.1",
+    "joi": "^17.5.0",
     "joi-to-json": "^2.0.0",
     "pre-commit": "^1.2.2",
     "qs": "^6.5.2",
