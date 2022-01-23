@@ -11,7 +11,7 @@
     "prepare": "node lib/util/prepare-swagger-ui",
     "prepublishOnly": "npm run prepare",
     "test": "npm run lint && npm run unit && npm run typescript",
-    "test:ci": "npm run lint && npm run coverage && npm run typescript",
+    "test:ci": "npm run coverage && npm run typescript",
     "typescript": "tsd",
     "unit": "tap -J \"test/**/*.js\"",
     "unit:report": "npm run unit -- --coverage-report=html",
