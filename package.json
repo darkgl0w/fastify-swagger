@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "coverage": "npm run unit -- --coverage-report=lcovonly",
-    "_lint": "standard",
+    "lint": "standard",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "node lib/util/prepare-swagger-ui",
     "prepublishOnly": "npm run prepare",
