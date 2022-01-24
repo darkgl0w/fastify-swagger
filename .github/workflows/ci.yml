@@ -13,6 +13,5 @@ on:
 jobs:
   test:
     needs: linter
-    uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@linter-ci
-    with:
+    uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@experiment
       lint: true
