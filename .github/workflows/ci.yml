@@ -12,6 +12,4 @@ on:
 
 jobs:
   test:
-    uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@experiment
-    with:
-      lint: true
+    uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@exp-alt
