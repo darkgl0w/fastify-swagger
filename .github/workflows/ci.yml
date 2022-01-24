@@ -11,13 +11,8 @@ on:
       - '*.md'
 
 jobs:
-  linter:
-    uses: darkgl0w/workflows/.github/workflows/ci-linter.yml@linter-ci
-
   test:
     needs: linter
     uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@linter-ci
-
-  experimental:
-    needs: linter
-    uses: darkgl0w/workflows/.github/workflows/plugins-ci-node-current.yml@linter-ci
+    with:
+      lint: true
