@@ -17,3 +17,7 @@ jobs:
   test:
     needs: linter
     uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@linter-ci
+
+  experimental:
+    needs: linter
+    uses: darkgl0w/workflows/.github/workflows/plugins-ci-node-current.yml@linter-ci
