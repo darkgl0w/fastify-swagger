@@ -12,7 +12,7 @@ on:
 
 jobs:
   linter:
-    uses: darkgl0w/workflows/.github/workflows/linter-ci.yml@linter-ci
+    uses: darkgl0w/workflows/.github/workflows/ci-linter.yml@linter-ci
 
   test:
     needs: linter
