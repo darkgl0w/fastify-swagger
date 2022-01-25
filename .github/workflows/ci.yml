@@ -13,5 +13,3 @@ on:
 jobs:
   test:
     uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@exp-alt
-    with:
-      disable-lint: true
