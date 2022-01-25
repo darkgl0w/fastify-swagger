@@ -14,4 +14,4 @@ jobs:
   test:
     uses: darkgl0w/workflows/.github/workflows/plugins-ci.yml@exp-alt
     with:
-      lint: true
+      lint: false
