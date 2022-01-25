@@ -8,7 +8,7 @@ function fastifySwagger (fastify, opts, next) {
 
   switch (opts.mode) {
     case 'static': {
-      const setup = require('./lib/mode/static')
+      const setup=require('./lib/mode/static')
       setup(fastify, opts, next)
       break
     }
