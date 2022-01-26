@@ -16,4 +16,4 @@ jobs:
     with:
       lint: true
       test-script: 'test:ci'
-      run-on-node-current-branch: true
+      node-current: true
