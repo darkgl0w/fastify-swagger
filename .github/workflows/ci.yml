@@ -16,4 +16,4 @@ jobs:
     with:
       lint: true
       test-script: 'test:ci'
-      node-matrix: '[12, 14, 16, 17]'
+      node-matrix: '[12.x, 14.x, 16.x, 17.x]'
