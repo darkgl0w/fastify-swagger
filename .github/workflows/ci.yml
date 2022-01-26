@@ -16,4 +16,3 @@ jobs:
     with:
       lint: true
       test-script: 'test:ci'
-      node-current: true
