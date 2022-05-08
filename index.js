@@ -26,6 +26,6 @@ function fastifySwagger (fastify, opts, next) {
 }
 
 module.exports = fp(fastifySwagger, {
-  fastify: '>=4.x',
+  fastify: '>=3.x',
   name: 'fastify-swagger'
 })
